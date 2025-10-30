@@ -1,0 +1,39 @@
+root{
+  --bg:#0b1220; --card:#0f172a; --muted:#97a3b6; --text:#e7eefc; --accent:#47c2ff; --accent2:#7a5cff;
+  --container:1100px; --radius:18px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;background:#070b16;color:var(--text)}
+.container{max-width:var(--container);margin:0 auto;padding:0 20px}
+
+.hero{
+  position:relative; overflow:hidden; padding:64px 0 96px;
+  background: radial-gradient(1200px 600px at 10% -10%, #132035 0%, #0b1220 60%),
+             linear-gradient(120deg, rgba(122,92,255,.25), rgba(71,194,255,.15));
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+.hero-inner h1{font-size:42px; margin:0 0 10px; font-weight:800; letter-spacing:.3px}
+.tagline{margin:0 0 8px; color:#cfe3ff; font-weight:600}
+.sub{margin:0 0 18px; color:var(--muted)}
+.cta-row{display:flex; gap:10px; flex-wrap:wrap}
+.btn{display:inline-block; padding:10px 16px; border:1px solid rgba(255,255,255,.18); border-radius:12px; color:var(--text); text-decoration:none}
+.btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent2)); border:none; color:#051018; font-weight:700}
+.btn.small{padding:8px 12px; border-radius:10px; font-size:14px}
+
+.hero-wave{
+  position:absolute; inset:auto 0 0 0; height:180px;
+  background: radial-gradient(900px 220px at 80% -20%, rgba(122,92,255,.5) 0%, transparent 60%),
+              radial-gradient(900px 220px at 20% -20%, rgba(71,194,255,.45) 0%, transparent 60%);
+  filter: blur(30px); opacity:.6;
+}
+
+.section-title{margin:40px 0 16px; font-size:22px; letter-spacing:.2px}
+.cards{display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:18px}
+.card{background:var(--card); border:1px solid rgba(255,255,255,.06); border-radius:var(--radius); overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.card img{display:block; width:100%; height:190px; object-fit:cover; background:#0a1427}
+.card-body{padding:16px}
+.card h3{margin:0 0 6px; font-size:18px}
+.meta{margin:0 0 10px; color:var(--muted)}
+.bullets{margin:0 0 12px; padding-left:18px}
+.bullets li{margin:3px 0}
+.links{display:flex; gap:10px; flex-wrap:wrap}
