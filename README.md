@@ -33,8 +33,8 @@ This project analyzes Blue-Mart’s online sales data to identify performance tr
 ## 🖼️ Dashboard Preview
 
 <p align="center">
-  <img src="Screenshot-2025-10-30-190036.png" alt="Blue-Mart Sales Overview" width="48%">
-  <img src="Screenshot-2025-10-30-190113.png" alt="Blue-Mart Profit Analysis" width="48%">
+  <img src="images/Screenshot-2025-10-30-190036.png" alt="Blue-Mart Sales Overview" width="48%">
+  <img src="images/Screenshot-2025-10-30-190113.png" alt="Blue-Mart Profit Analysis" width="48%">
 </p>
 ---
 
