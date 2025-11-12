@@ -1,3 +1,4 @@
+![Blue Mart E-commerce Sales Performance Dashboard](Blue_Mart_Dashboard.png)
 # Blue-Mart E-commerce Sales Performance Dashboard
 
 **Tools:** Power BI | Excel (Power Query) | DAX | Data Modeling  
